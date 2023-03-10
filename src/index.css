@@ -1,0 +1,82 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    height: 100vh;
+    transition: background-color 1s ease;
+}
+
+#root {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.App {
+    margin: auto;
+}
+
+.dev-name{
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+}
+
+.dev-name:hover{
+    opacity: 0.8;
+}
+
+#quote-box {
+    padding: 40px 50px;
+    width: 550px;
+    border-radius: 5px;
+    background-color: #fff;
+    margin-bottom: 20px;
+}
+
+#text {
+    font-weight: 500;
+    font-size: 1.75em;
+    transition: color 2s ease;
+}
+
+#author {
+    text-align: right;
+    margin: 20px 0px;
+    transition: color 2s ease;
+}
+
+.button-wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+
+#new-quote{
+    border: none;
+    color: #fff;
+    background-color: gray;
+    font-size: 0.85em;
+    padding: 10px 20px;
+    transition: background-color 1s ease;
+}
+
+#new-quote:hover{
+    opacity: 0.8;
+    cursor: pointer;
+
+}
+
+.twitter-icon{
+    color: gray;
+    transition: color 1s ease;
+}
+
+.twitter-icon:hover{
+    opacity: 0.8;
+}
