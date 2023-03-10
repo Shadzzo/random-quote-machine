@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/shadzzo.github.io/random-quote-machine/static/css/main.4646868f.css",
+    "main.js": "/shadzzo.github.io/random-quote-machine/static/js/main.f03e4185.js",
+    "index.html": "/shadzzo.github.io/random-quote-machine/index.html",
+    "main.4646868f.css.map": "/shadzzo.github.io/random-quote-machine/static/css/main.4646868f.css.map",
+    "main.f03e4185.js.map": "/shadzzo.github.io/random-quote-machine/static/js/main.f03e4185.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4646868f.css",
+    "static/js/main.f03e4185.js"
+  ]
+}
